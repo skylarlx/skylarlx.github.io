@@ -33,13 +33,29 @@
     
     
     <entry>
-      <title>fa</title>
-      <link href="/uncategorized/2019/01/09/fa/"/>
-      <url>/uncategorized/2019/01/09/fa/</url>
+      <title>test</title>
+      <link href="/c1/c2/2019/01/09/test/"/>
+      <url>/c1/c2/2019/01/09/test/</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
+      <categories>
+          
+          <category> c1 </category>
+          
+          <category> c2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> t1 </tag>
+            
+            <tag> t2 </tag>
+            
+        </tags>
       
     </entry>
     
