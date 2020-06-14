@@ -13,7 +13,7 @@
 <meta property="og:site_name" content="Siang">
 <meta property="og:description" content="终于把网站架构大致搭好了。从之前的typecho升级到hexo框架，配合一个相当不错的主题cactus（学习了新单词）。接下来开始写点东西（这篇文章也马上要改）。加油咯~">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-09T16:22:18.301Z">
+<meta property="og:updated_time" content="2019-01-09T16:22:18.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="开天辟地">
 <meta name="twitter:description" content="终于把网站架构大致搭好了。从之前的typecho升级到hexo框架，配合一个相当不错的主题cactus（学习了新单词）。接下来开始写点东西（这篇文章也马上要改）。加油咯~">
@@ -46,10 +46,6 @@
     <!-- rss -->
     
     
-    <!-- styles -->
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
-
 </head>
 
 <body class="max-width mx-auto px3 ltr">
@@ -64,13 +60,11 @@
          
           <li><a href="/">Home</a></li>
          
-          <li><a href="/archives/">Archives</a></li>
-         
-          <li><a href="/categories/">Categories</a></li>
-         
-          <li><a href="/moments/">Moments</a></li>
-         
           <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
         
       </ul>
     </span>
@@ -150,12 +144,6 @@
   </div>
 </article>
 
-    <div class="blog-post-comments">
-        
-        <div class="vcomment"></div>
-        
-    </div>
-
 
 
         
@@ -167,13 +155,11 @@
          
           <li><a href="/">Home</a></li>
          
-          <li><a href="/archives/">Archives</a></li>
-         
-          <li><a href="/categories/">Categories</a></li>
-         
-          <li><a href="/moments/">Moments</a></li>
-         
           <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
         
       </ul>
     </div>
@@ -211,7 +197,7 @@
         
         <footer id="footer">
   <div class="footer-left">
-    Copyright &copy; 2019 Skylar
+    Copyright &copy; 2020 Skylar
   </div>
   <div class="footer-right">
     <nav>
@@ -219,13 +205,11 @@
          
           <li><a href="/">Home</a></li>
          
-          <li><a href="/archives/">Archives</a></li>
-         
-          <li><a href="/categories/">Categories</a></li>
-         
-          <li><a href="/moments/">Moments</a></li>
-         
           <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
         
       </ul>
     </nav>
@@ -250,31 +234,5 @@
 <!-- Baidu Analytics -->
 
 <!-- Disqus Comments -->
-
-
-<!-- Valine Comments -->
-
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
-<script type="text/javascript">
-    var notify = 'false' == true ? true : false;
-    var verify = 'false' == true ? true : false;
-    var GUEST_INFO = ['nick','mail','link'];
-    var guest_info = 'nick,mail'.split(',').filter(function(item){
-      return GUEST_INFO.indexOf(item) > -1
-    });
-    guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
-    new Valine({
-        el: '.vcomment',
-        notify: notify,
-        verify: verify,
-        appId: "hoINMVdIdHIByAl2pvldOHmp-gzGzoHsz",
-        appKey: "C9Kd6fcVQMBKCx5i2Bxa8pgL",
-        avatar:"mm",
-        placeholder: "念念不忘，必有回响。",
-        guest_info:guest_info,
-        pageSize:"10"
-    })
-</script>
 
 
